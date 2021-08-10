@@ -1,0 +1,28 @@
+#!/bin/bash
+
+
+
+
+
+
+
+
+
+
+
+
+echo "-------GETTING IP ADDRESSE(S)------"
+ifconfig
+echo "PLEASE GRAB THE INET PRINTED AND PASTE AS INPUT BELOW"
+read addRess
+
+echo "-------------------INPUT SUCCESSFUL----------------------"
+
+
+echo "-------STARTING BASIC NMAP SNANNING--------"
+
+targ=$addRess 
+nmap -Pn $targ
+
+
+

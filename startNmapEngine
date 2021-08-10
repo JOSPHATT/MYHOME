@@ -10,7 +10,9 @@
 
 
 
-
+date -u
+echo "-------RUNNING TERMUX WIFI INFO------"
+termux-wifi-connectioninfo	
 echo "-------GETTING IP ADDRESSE(S)------"
 ifconfig
 echo "PLEASE GRAB THE INET PRINTED AND PASTE AS INPUT BELOW"

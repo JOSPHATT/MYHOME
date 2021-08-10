@@ -1,0 +1,6 @@
+#!/bin/bash
+
+
+
+./startNmapEngine | tee -a NmapEngineLog.txt
+

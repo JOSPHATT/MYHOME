@@ -1,0 +1,52 @@
+Tue Aug 10 11:54:40 UTC 2021
+-------RUNNING TERMUX WIFI INFO------
+{
+  "bssid": null,
+  "frequency_mhz": -1,
+  "ip": "0.0.0.0",
+  "link_speed_mbps": -1,
+  "mac_address": "02:00:00:00:00:00",
+  "network_id": -1,
+  "rssi": -127,
+  "ssid": "<unknown ssid>",
+  "ssid_hidden": false,
+  "supplicant_state": "DISCONNECTED"
+}
+-------GETTING IP ADDRESSE(S)------
+ccmni1: flags=193<UP,RUNNING,NOARP>  mtu 1500
+        inet 100.116.159.150  netmask 255.0.0.0
+        unspec 00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00  txqueuelen 1000  (UNSPEC)
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        unspec 00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00  txqueuelen 1  (UNSPEC)
+
+PLEASE GRAB THE INET PRINTED AND PASTE AS INPUT BELOW
+-------------------INPUT SUCCESSFUL----------------------
+-------STARTING BASIC NMAP SNANNING--------
+Starting Nmap 7.91 ( https://nmap.org ) at 2021-08-10 14:55 EAT
+Nmap scan report for 100.116.159.150
+Host is up (0.0058s latency).
+All 1000 scanned ports on 100.116.159.150 are closed
+
+Nmap done: 1 IP address (1 host up) scanned in 8.33 seconds
+Tue Aug 10 11:56:31 UTC 2021
+-------RUNNING TERMUX WIFI INFO------
+{
+  "bssid": null,
+  "frequency_mhz": -1,
+  "ip": "0.0.0.0",
+  "link_speed_mbps": -1,
+  "mac_address": "02:00:00:00:00:00",
+  "network_id": -1,
+  "rssi": -127,
+  "ssid": "<unknown ssid>",
+  "ssid_hidden": false,
+  "supplicant_state": "DISCONNECTED"
+}
+-------GETTING IP ADDRESSE(S)------
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        unspec 00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00  txqueuelen 1  (UNSPEC)
+
+PLEASE GRAB THE INET PRINTED AND PASTE AS INPUT BELOW
